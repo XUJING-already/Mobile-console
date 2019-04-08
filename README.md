@@ -8,6 +8,8 @@
 ## 安装下载
 
 - 下载地址 https://github.com/XUJING-already/Mobile-console/releases
+- `npm i mobile-console-npm`
+- CDN http://unpkg.com/mobile-console-npm/release/bundle.js
 
 ## 快速使用
 
