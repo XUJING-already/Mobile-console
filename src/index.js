@@ -8,5 +8,8 @@ class MobileConsole{
     get(key){
         return this.list[key]
     }
+    clesr(){
+        this.list = {}
+    }
 }
 window.MobileConsole = MobileConsole
