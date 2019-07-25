@@ -1,6 +1,6 @@
 {
-  "name": "mobile-console",
-  "version": "0.0.1",
+  "name": "mobile-console-npm",
+  "version": "0.0.2",
   "description": "在移动端应用的输出工具",
   "main": "src/index.js",
   "scripts": {
@@ -24,14 +24,15 @@
   },
   "homepage": "https://github.com/XUJING-already/Mobile-console#readme",
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/polyfill": "^7.4.3",
-    "@babel/preset-es2015": "^7.0.0-beta.53",
-    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-latest": "^6.24.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "user": "0.0.0"
+  }
 }
